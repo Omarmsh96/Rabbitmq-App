@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser =require('body-parser')
-const Producer =require('./scr/producer')
+const Producer =require('./producerService/producer')
 const producer = new Producer();
 
 
